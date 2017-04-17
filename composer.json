@@ -1,0 +1,12 @@
+{
+    "name": "tagtaste/settings",
+    "description": "settings package",
+    "authors": [
+        {
+            "name": "tushar verma",
+            "email": "tushar@tagtaste.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}

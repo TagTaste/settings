@@ -1,12 +1,16 @@
 {
     "name": "tagtaste/settings",
-    "description": "settings package",
+    "description": "Uniform settings accross tagtaste universe",
+    "type": "library",
     "authors": [
         {
-            "name": "tushar verma",
-            "email": "tushar@tagtaste.com"
+            "name": "Amitabh Dhiwal",
+            "email": "amitabh@dhiwal.com"
         }
     ],
-    "minimum-stability": "dev",
-    "require": {}
+    "autoload": {
+        "psr-4": {
+            "Tagtaste\\Settings\\": "src/"
+        }
+    }
 }
